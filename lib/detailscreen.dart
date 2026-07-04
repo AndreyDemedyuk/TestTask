@@ -42,7 +42,7 @@ class _DetailScreenState extends State<DetailScreen> {
           );
           await _sql.createItem(basketItem);
           final snackBar = SnackBar(
-            content: Text("Товар добавлен в корзину"),
+            content: Text("Added to basket"),
             duration: Duration(seconds: 3),
           );
           ScaffoldMessenger.of(context).showSnackBar(snackBar);

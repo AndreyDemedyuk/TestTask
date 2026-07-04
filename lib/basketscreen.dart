@@ -21,15 +21,15 @@ class _BasketState extends State<Basket> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Center(child: Text('Корзина'))),
+      appBar: AppBar(title: Center(child: Text('Basket'))),
       body: FutureBuilder(
         future: _loadItems(),
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return const Center(child: CircularProgressIndicator());
           }
-          if (!snapshot.hasData) {
-            return const Center(child: Text("Корзина пуста"));
+          if (snapshot.data?.isEmpty == true ) {
+            return const Center(child: Text("Basket empty"));
           }
           final items = snapshot.data as List<BasketDB>;
 
