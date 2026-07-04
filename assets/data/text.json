@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 59.99,
+    "imageUrl": "https://i.pinimg.com/736x/8a/72/42/8a72426d90aa6fb7799fef1bbf443ba6.jpg",
+    "shortDescription": "Wireless noise-cancelling headphones.",
+    "fullDescription": "High-quality wireless headphones with advanced noise cancellation, 30-hour battery life, and crystal-clear sound for immersive audio experiences."
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 129.99,
+    "imageUrl": "https://i.pinimg.com/736x/f4/56/67/f4566749bcf2b5e983cb2b118dcfd7ed.jpg",
+    "shortDescription": "Fitness tracking smart watch.",
+    "fullDescription": "A fitness-focused smart watch with real-time heart rate monitoring, built-in GPS, water resistance, and sleep tracking."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 39.99,
+    "imageUrl": "https://i.pinimg.com/736x/4e/dd/1f/4edd1fe0871ab3c1c2be95841447bcd2.jpg",
+    "shortDescription": "Portable Bluetooth speaker.",
+    "fullDescription": "Compact and powerful Bluetooth speaker with rich bass, waterproof design (IPX7), and 12-hour battery life, perfect for indoor and outdoor use."
+  },
+  {
+    "id": 4,
+    "name": "Laptop Backpack",
+    "price": 49.99,
+    "imageUrl": "https://i.pinimg.com/736x/f0/f1/cc/f0f1ccd40c0a0ff872da2e959b04350f.jpg",
+    "shortDescription": "Backpack with USB charging port.",
+    "fullDescription": "Durable and spacious backpack designed for laptops up to 16 inches, with multiple compartments, ergonomic padding, and built-in USB charging port."
+  },
+  {
+    "id": 5,
+    "name": "Wireless Mouse",
+    "price": 19.99,
+    "imageUrl": "https://i.pinimg.com/736x/d6/2f/f3/d62ff359ead2627e5351fcbaf8089e6c.jpg",
+    "shortDescription": "Ergonomic wireless mouse.",
+    "fullDescription": "Sleek wireless mouse featuring ergonomic design, silent click, adjustable DPI settings, and energy-saving technology for extended battery life."
+  }
+]
